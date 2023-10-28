@@ -1,0 +1,45 @@
+L'objectif est d'examiner la dernière version stable de la branche master du projet JFreeChart pour évaluer sa facilité d'analyse du point de vue du chef du projet.
+
+Métrique 1 (M1) : Nombre de lignes de code sans commentaires et avec commentaires
+Raisonnement : Cette métrique évalue la présence de commentaires dans le code source, lesquels sont essentiels pour la compréhension et la maintenance à long terme.
+Mesure : Comptez le nombre de lignes de code avec et sans commentaires en utilisant des outils d'analyse de code.
+
+Métrique 2 (M2) : Âge d'un fichier
+Raisonnement : L'âge d'un fichier indique depuis combien de temps il n'a pas été modifié, ce qui peut indiquer s'il est obsolète.
+Mesure : Calculez la différence entre la date actuelle et la date de dernière modification du fichier.
+
+Métrique 3 (M3) : TPC (Test par classe)
+Raisonnement : Mesurer le nombre de cas de test associés à chaque classe permet d'évaluer la couverture des tests unitaires pour chaque composant du code.
+Mesure : Comptez le nombre de cas de test associés à chaque classe.
+
+Métrique 4 (M4) : TPP (Test par package)
+Raisonnement : Cette métrique évalue la distribution des tests au niveau des packages, permettant de détecter les zones du code qui peuvent manquer de tests.
+Mesure : Comptez le nombre total de cas de test dans chaque package.
+
+Métrique 5 (M5) : PMNT (pourcentage de méthodes non testées)
+Raisonnement : Cette métrique indique le pourcentage de méthodes qui n'ont pas été testées, permettant d'identifier les parties du code susceptibles de contenir des erreurs non détectées.
+Mesure : Calculez le pourcentage de méthodes non testées par rapport au nombre total de méthodes.
+
+Métrique 6 (M6) : CC (complexité cyclomatique d'une méthode)
+Raisonnement : La complexité cyclomatique d'une méthode indique sa complexité algorithmique, ce qui peut influencer la compréhension et les tests.
+Mesure : Utilisez des outils d'analyse statique pour calculer la complexité cyclomatique de chaque méthode.
+
+Métrique 7 (M7) : DC (Densité de commentaires)
+Raisonnement : Mesurer la densité de commentaires permet d'évaluer la qualité de la documentation du code, importante pour la compréhension et la maintenance.
+Mesure : Calculez le pourcentage de lignes de commentaire par rapport au nombre total de lignes de code.
+
+Métrique 8 (M8) : Nombre total de tests unitaires
+Raisonnement : Cette métrique évalue la quantité de tests unitaires présents dans le code, essentielle pour une couverture adéquate.
+Mesure : Comptez le nombre total de tests unitaires.
+
+Métrique 9 (M9) : PMNT (pourcentage de méthodes non testées)
+Raisonnement : Cette métrique est importante pour évaluer la couverture des tests au niveau des méthodes, identifiant les parties du code sans couverture de tests.
+Mesure : Calculez le pourcentage de méthodes non testées par rapport au nombre total de méthodes.
+
+Métrique 10 (M10) : Nombre d'erreurs
+Raisonnement : Cette métrique indique combien d'erreurs ont été détectées dans les tests, ce qui peut signaler des problèmes importants dans le code.
+Mesure : Comptez le nombre total d'erreurs détectées par les tests.
+
+Métrique 11 (M11) : Ratio taille code / taille test
+Raisonnement : Ce ratio évalue l'équilibre entre le code de production et les tests, important pour garantir une bonne couverture de tests.
+Mesure : Divisez la taille du code de production par la taille des tests (en lignes de code) pour obtenir le ratio.
